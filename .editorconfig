@@ -1,0 +1,31 @@
+# Top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+
+[*.cs]
+
+# Require XML docs for public members
+dotnet_diagnostic.SA1600.severity = warning
+dotnet_diagnostic.SA1611.severity = warning
+dotnet_diagnostic.SA1615.severity = warning
+dotnet_diagnostic.SA1633.severity = warning
+
+# Treat common warnings as errors
+dotnet_analyzer_diagnostic.severity = warning
+dotnet_diagnostic.CA1062.severity = error   # Validate arguments of public methods
+dotnet_diagnostic.CA1305.severity = error   # IFormatProvider
+dotnet_diagnostic.CA1805.severity = error   # Do not initialize unnecessarily
+dotnet_diagnostic.IDE0060.severity = error  # Remove unused parameter
+
+# Style
+dotnet_diagnostic.IDE0008.severity = none   # allow var
+dotnet_diagnostic.CA1707.severity = none    # allow underscores in test names
+dotnet_diagnostic.SA1200.severity = none    # allow usings at top
+dotnet_diagnostic.SA1633.severity = none    # no mandatory file headers

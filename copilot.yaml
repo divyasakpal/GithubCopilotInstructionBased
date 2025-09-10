@@ -1,0 +1,18 @@
+# Copilot YAML Prompt Configuration
+
+# This file defines the primary prompts, rules, and configuration for GitHub Copilot and related agents in this repository.
+# It takes precedence over markdown instruction files if there is any conflict.
+
+# Example structure (customize as needed):
+
+priority: 1
+primary: true
+
+override_markdown_instructions: true
+
+rules:
+  - All code generation, project structure, and workflow decisions must consult this file first.
+  - If a rule in this file conflicts with a markdown instruction, this file wins.
+  - Update this file to reflect the most current and critical project requirements.
+
+# Add additional prompts, rules, or configuration below as needed.

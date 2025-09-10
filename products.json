@@ -1,0 +1,12 @@
+ [
+    { "id": 1, "name": "Pav", "price": 5 },
+    { "id": 2, "name": "Khari", "price": 8 },
+    { "id": 3, "name": "Toast", "price": 12 },
+    { "id": 4, "name": "Bun", "price": 6 },
+    { "id": 5, "name": "Croissant", "price": 20 },
+    { "id": 6, "name": "Danish", "price": 25 },
+    { "id": 7, "name": "Bagel", "price": 15 },
+    { "id": 8, "name": "Muffin", "price": 18 },
+    { "id": 9, "name": "Donut", "price": 22 },
+    { "id": 10, "name": "Baguette", "price": 30 }
+  ]

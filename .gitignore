@@ -1,0 +1,11 @@
+bin/
+obj/
+*.user
+*.suo
+*.swp
+.vscode/
+.vs/
+.idea/
+*.coverage
+TestResults/
+**/.DS_Store

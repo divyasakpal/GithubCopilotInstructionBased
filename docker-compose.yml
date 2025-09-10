@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web-api-starter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    restart: unless-stopped

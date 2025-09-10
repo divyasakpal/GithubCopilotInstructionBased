@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "bakery": {
+      "command": "file",
+      "args": {
+        "path": "./products.json"
+      }
+    }
+  }
+}
